@@ -897,7 +897,7 @@ footer img {
 }
 
 .card-header p {
-  color: #c04caf;
+  color: #783566;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -1433,6 +1433,10 @@ input[type="radio"].input-certo:checked::before {
 
 .tabela td {
   padding: 12px 18px;
+}
+
+.tabela td ul {
+  padding-left: 0 !important;
 }
 
 .tabela td,
