@@ -1359,6 +1359,7 @@ input[type="radio"].input-certo:checked::before {
   /* border: 0px solid #707070; */
   padding: 30px 20px 0 20px;
   flex-grow: 1;
+  hyphens: auto
 }
 
 .cards {
