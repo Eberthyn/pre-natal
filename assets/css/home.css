@@ -221,6 +221,10 @@ h3 {
   color: black;
 }
 
+.modal-content a {
+  color: black;
+  text-decoration: underline;
+}
 /* .modal-header .close {
   padding: 1rem;
   margin: -2rem -4rem -1rem auto;
