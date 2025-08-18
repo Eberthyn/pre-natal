@@ -40,7 +40,12 @@ footer {
   align-items: center;
   text-align: left;
   justify-content: space-evenly;
-  background: linear-gradient(to bottom, #730162 40%, #9A0184 60%, #c100a4 100%);
+  background: linear-gradient(
+    to bottom,
+    #730162 40%,
+    #9a0184 60%,
+    #c100a4 100%
+  );
   color: white;
 
   h1 {
@@ -294,126 +299,37 @@ footer {
   color: white;
 }
 
+.atencao,
+.reflexao {
+  margin-bottom: 40px !important;
+  margin-top: 40px !important;
+  margin-left: 0px !important;
+  padding: 24px 12px;
+  border: 4px dotted #aa1c95;
+  font-family: "Prelo Book", sans-serif;
+
+  b {
+    color: #aa1c95 !important;
+  }
+
+  img {
+    padding-left: 15px;
+  }
+
+  .row {
+    gap: 10px;
+  }
+}
+
 .saibaMais {
+  margin-bottom: 40px !important;
+  margin-top: 40px !important;
+  margin-left: 0px !important;
+  padding: 24px 12px;
   border: 4px dotted #783566;
   color: #783566 !important;
-  margin-left: 0px !important;
   text-align: center;
   font-family: "Prelo Bold", sans-serif;
-
-  .col-md-2 {
-    background-color: white !important;
-  }
-
-  .video {
-    margin-left: 40px !important;
-  }
-
-  @media (max-width: 780px) {
-    .col-md-2 {
-      justify-content: start;
-    }
-  }
-}
-
-.voceSabia,
-.curiosidade,
-.saibaMais {
-  margin-bottom: 40px !important;
-  margin-top: 40px !important;
-  color: white;
-
-  .col-md-2 {
-    padding: 0 !important;
-  }
-
-  .col-md-2 img {
-    padding: 16%;
-  }
-
-  .col-md-10 {
-    padding-right: 12% !important;
-  }
-
-  .col-md-10 p {
-    margin-top: 10px !important;
-    margin-left: 40px;
-  }
-
-  .col-md-10 h3 {
-    margin-top: 30px !important;
-    margin-left: 40px;
-  }
-
-  @media (max-width: 780px) {
-    .col-md-2 img {
-      padding: 6% !important;
-    }
-  }
-}
-
-.pergunte {
-  background-color: #ff004c;
-  margin-left: 0px !important;
-  text-transform: uppercase;
-
-  .video {
-    margin-left: 40px !important;
-  }
-
-  .col-md-8 {
-    display: flex;
-    align-items: center;
-  }
-
-  @media (max-width: 780px) {
-    .col-md-2 {
-      justify-content: start;
-    }
-  }
-}
-
-.alerta {
-  background-color: #ff004c;
-  margin-left: 0px !important;
-  max-width: 580px;
-  min-width: 580px;
-  border-radius: 12.5px;
-
-  .col-md-8 {
-    display: flex;
-    align-items: center;
-  }
-
-  @media (max-width: 780px) {
-    .col-md-2 {
-      justify-content: start;
-    }
-  }
-}
-
-.materialComplementar {
-  border: 2px solid #aa1c95;
-  margin-bottom: 30px;
-  padding: 12px 22px;
-
-  a {
-    text-decoration: underline;
-    color: black;
-  }
-}
-
-.row.alerta {
-  margin-top: 0px !important;
-}
-
-.alerta,
-.saibaMais,
-.pergunte {
-  margin-bottom: 40px !important;
-  margin-top: 40px !important;
-  padding: 24px 12px;
-  color: white;
 
   .col-md-2 {
     padding: 0 !important;
@@ -441,6 +357,7 @@ footer {
   @media (max-width: 780px) {
     .col-md-2 {
       border-right: none;
+      justify-content: start;
     }
 
     .col-md-2 img {
@@ -658,9 +575,20 @@ ul li {
 }
 
 ol li::marker {
-  color: #aa1c95;
+  color: #c04caf;
   font-weight: 800;
   font-size: 16px;
+}
+
+.listaNumerada {
+  li::marker {
+    font-size: 40px;
+    font-family: "Prelo Bold";
+  }
+
+  b {
+    color: #c04caf;
+  }
 }
 
 .icon {
@@ -1134,7 +1062,7 @@ a.tituloItem {
 
 .item.active,
 .barraStepper.active {
-  background-color: #C04CAF;
+  background-color: #c04caf;
 }
 
 .sectionTitle {
@@ -1357,9 +1285,9 @@ input[type="radio"].input-certo:checked::before {
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   /* border: 0px solid #707070; */
-  padding: 30px 20px 0 20px;
+  padding: 20px 10px 0 10px !important;
   flex-grow: 1;
-  hyphens: auto
+  hyphens: auto;
 }
 
 .cards {
@@ -1818,7 +1746,8 @@ input[type="radio"].input-certo:checked::before {
   margin-bottom: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  background-color: #aa1c95;
+  border: 1px solid #707070;
+  /* background-color: #aa1c95; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1834,7 +1763,6 @@ input[type="radio"].input-certo:checked::before {
 
 .front,
 .back {
-  color: white;
   width: 100%;
   display: flex;
   flex-direction: column;
