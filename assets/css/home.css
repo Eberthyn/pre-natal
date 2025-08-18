@@ -183,7 +183,7 @@ h3 {
   display: flex;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #C900AB;
+  background-color: #c900ab;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -230,7 +230,8 @@ h3 {
   background-color: #c04caf;
 }
 
-#modalCreditos, #modalReferencias {
+#modalCreditos,
+#modalReferencias {
   #botaoComecar {
     border: none;
   }
@@ -309,7 +310,6 @@ h3 {
 }
 
 @media (max-width: 600px) {
-
   .module,
   .icons {
     flex-direction: column;
@@ -408,7 +408,6 @@ a.tituloLista {
   }
 }
 
-
 /* 1) mantém só o fade, tira o translate slide */
 .modal.fade .modal-dialog {
   /* elimina o deslocamento vertical */
@@ -430,19 +429,13 @@ a.tituloLista {
 
 .folder {
   /* Gradiente mais claro para o topo */
-  background: linear-gradient(to bottom,
-      #C100A4 0%,
-      #C100A4 30%,
-      #730162 100%);
+  background: linear-gradient(to bottom, #c100a4 0%, #c100a4 30%, #730162 100%);
   color: #fff;
 }
 
 .apresentacao {
   /* Gradiente mais escuro a partir daqui */
-  background: linear-gradient(to bottom,
-      #C100A4 0%,
-      #C100A4 10%,
-      #730162 100%);
+  background: linear-gradient(to bottom, #c100a4 0%, #c100a4 10%, #730162 100%);
   color: #fff;
 }
 
@@ -450,4 +443,12 @@ a.tituloLista {
   .modal-content {
     padding: 0.5rem !important;
   }
+}
+
+.menuSuperior {
+  padding: 30px 0 10px 0 !important;
+}
+
+.card-content {
+  flex-grow: 1;
 }
