@@ -620,6 +620,15 @@ ol li::marker {
   font-size: 5px;
 }
 
+.icon.disc::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f111";
+  font-weight: "Classic Regular";
+  margin-right: 15px;
+  margin-top: 8px;
+  font-size: 5px;
+}
+
 .icon.circle-color::before {
   font-family: "Font Awesome 5 Free";
   content: "\f111";
