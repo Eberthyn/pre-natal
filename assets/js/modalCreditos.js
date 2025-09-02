@@ -50,7 +50,7 @@ class ModalCreditos extends HTMLElement {
         <p>Isabela Schincariol</p>
         <i>Assessora de Comunicação</i>
 
-        <p>Fernanda Sousa</p>
+        <p>Alessandra Lisboa</p>
         <i>Designer Educacional</i>
 
         <p>Daniela Botelho</p>
@@ -72,8 +72,8 @@ class ModalCreditos extends HTMLElement {
         <p>Natália Rasina</p>
         <i>Audiodescrição</i>
 
-        <p>Janaina Vieira</p>
-        <i>Revisão de Português</i>
+        <p>Maria Angélica Marcondes Drska</p>
+        <i>Revisora Ortográfica</i>
 
         <p><b>Suporte Técnico de Tecnologia da Informação</b></p>
 
@@ -84,10 +84,10 @@ class ModalCreditos extends HTMLElement {
         <i>Desenvolvedor</i>
 
         <p>Adriano Lourenço</p>
-        <i>Analista de Suporte</i>
+        <i>Analista de Tecnologias Educacionais</i>
 
         <p>Orlando Terra</p>
-        <i>Analista de Suporte</i>
+        <i>Analista de Tecnologias Educacionais</i>
 
         <p>Fábio Carneiro</p>
         <i>Designer Gráfico e Web Designer</i>
@@ -109,28 +109,9 @@ class ModalCreditos extends HTMLElement {
         Tatiane Figueiredo</p>
 
         <h2>Conteudista</h2>
-        <p>Álvaro Luiz Lage Alves</p>
-        <i>Hospital das Clínicas da Universidade Federal de Minas Gerais – Belo Horizonte / MG</i>
+        <p>Edson Borges de Souza</p>
+        <i>Hospital Sofia Feldman – Belo Horizonte / MG</i>
 
-        <h2>Tutores</h2>
-        <p>Juliana Augusta Dias</p>
-        <i>Universidade Federal dos Vales de Jequitinhonha e Mucuri – UFVJM</i>
-
-        <p>Alexandre Massao Nozaki</p>
-        <i>Universidade de São Paulo – USP</i>
-
-        <p>Lucas Barbosa da Silva</p>
-        <i>Hospital das Clínicas – UFMG</i>
-
-        <p>Paulo Roberto Mansoldo Alves</p>
-        <i>UNIMED – BH</i>
-
-        <p>Francisco Lázaro Pereira de Sousa</p>
-        <i>Centro Universitário Luzíadas – Santos - SP</i>
-
-        <h2>Ilustração</h2>
-        
-        <p>Felipe Starling</p>
 
 `;
   }
