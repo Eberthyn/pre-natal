@@ -79,18 +79,18 @@ const accordions = [
       <p>FIGUERAS, F.; GRATACÓS, E. <i>Update on the diagnosis and classification of fetal growth restriction and proposal of a stage-based management protocol. 
       Fetal Diagnosis and Therapy</i>, v. 36, n. 2, p. 86-98, 2014. DOI: <a href="https://doi.org/10.1159/000357592">https://doi.org/10.1159/000357592</a>.</p>
 
-      <p>RAHMAN, M. M. et al. <i>Maternal anemia and risk of adverse birth and health outcomes in low- and middle-income countries: systematic review and meta-analysis. 
+      <p>RAHMAN, M. M. <i>et al. Maternal anemia and risk of adverse birth and health outcomes in low- and middle-income countries: systematic review and meta-analysis. 
       American Journal of Clinical Nutrition</i>, v. 103, n. 2, p. 495-504, 2016.</p>
 
-      <p>SAFIRI, S. et al. <i>Burden of anemia and its underlying causes in 204 countries and territories, 1990-2019: results from the Global Burden of Disease Study 2019. 
+      <p>SAFIRI, S. <i>et al. Burden of anemia and its underlying causes in 204 countries and territories, 1990-2019: results from the Global Burden of Disease Study 2019. 
       Journal of Hematology & Oncology</i>, v. 14, n. 185, 2021.</p>
 
-      <p>TOLKIEN, Z. et al. <i>Ferrous sulfate supplementation causes significant gastrointestinal side-effects in adults: a systematic review and meta-analysis. PLoS One</i>, v. 10, n. 2, e0117383, 2015.</p>
+      <p>TOLKIEN, Z. <i>et al. Ferrous sulfate supplementation causes significant gastrointestinal side-effects in adults: a systematic review and meta-analysis. PLoS One</i>, v. 10, n. 2, e0117383, 2015.</p>
 
       <p>VON DADELSZEN, P.; MAGEE, L. A. <i>Preventing deaths due to the hypertensive disorders of pregnancy. Best Practice & Research Clinical Obstetrics & Gynaecology</i>, v. 36, p. 83-102, 2016. 
       DOI: <a href="https://doi.org/10.1016/j.bpobgyn.2016.05.005">https://doi.org/10.1016/j.bpobgyn.2016.05.005</a>.</p>
 
-      <p>ZAJDENVERG, L. et al. Rastreamento e diagnóstico da hiperglicemia na gestação. 2022. DOI: <a href="https://doi.org/10.29327/557753.2022-11">https://doi.org/10.29327/557753.2022-11</a>.</p>
+      <p>ZAJDENVERG, L. <i>et al.</i> Rastreamento e diagnóstico da hiperglicemia na gestação. 2022. DOI: <a href="https://doi.org/10.29327/557753.2022-11">https://doi.org/10.29327/557753.2022-11</a>.</p>
 
       `
     ],
@@ -107,15 +107,15 @@ const accordions = [
     <p>BRASIL. Ministério da Saúde. Pré-natal de baixo risco. Brasília: Ministério da Saúde, 2012. (Cadernos de Atenção Básica, n. 32). 
     Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_32_prenatal.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_32_prenatal.pdf</a>. Acesso em: 21 jul. 2025.</p>
 
-    <p>DECLERCQ, E. et al. <i>The natural pattern of birth timing and gestational age in the U.S. compared to England, and the Netherlands. PLoS One</i>, v. 18, n. 1, e0278856, 2023. 
+    <p>DECLERCQ, E. <i>et al. The natural pattern of birth timing and gestational age in the U.S. compared to England, and the Netherlands. PLoS One</i>, v. 18, n. 1, e0278856, 2023. 
     DOI: <a href="https://doi.org/10.1371/journal.pone.0278856">https://doi.org/10.1371/journal.pone.0278856</a>.</p>
 
-    <p>HOWARD, L. M. et al. <i>Non-psychotic mental disorders in the perinatal period. The Lancet</i>, v. 384, 15 nov. 2014.</p>
+    <p>HOWARD, L. M. <i>et al. Non-psychotic mental disorders in the perinatal period. The Lancet</i>, v. 384, 15 nov. 2014.</p>
 
-    <p>MUGLU, J. et al. <i>Risks of stillbirth and neonatal death with advancing gestation at term: a systematic review and meta-analysis of cohort studies of 15 million pregnancies. 
+    <p>MUGLU, J. <i>et al. Risks of stillbirth and neonatal death with advancing gestation at term: a systematic review and meta-analysis of cohort studies of 15 million pregnancies. 
     PLoS Medicine</i>, v. 16, n. 7, e1002838, 2019.</p>
 
-    <p>O'CONNOR, E. et al. <i>Primary Care Screening for and Treatment of Depression in Pregnant and Postpartum Women: 
+    <p>O'CONNOR, E. <i>et al. Primary Care Screening for and Treatment of Depression in Pregnant and Postpartum Women: 
     Evidence Report and Systematic Review for the US Preventive Services Task Force</i>. JAMA, v. 315, p. 388-406, 2016.</p>
 
     <p>ORGANIZAÇÃO MUNDIAL DA SAÚDE. Recomendações da OMS sobre cuidados maternos e neonatais para uma experiência pós-natal positiva. Genebra: OMS, 2022. 
@@ -127,10 +127,10 @@ const accordions = [
     <p>UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL. Quais são os cuidados com o coto umbilical do recém-nascido? TelessaúdeRS-UFRGS, [2025]. 
     Disponível em: <a href="https://www.ufrgs.br/telessauders/perguntas/quais-sao-os-cuidados-com-o-coto-umbilical-do-recem-nascido/">https://www.ufrgs.br/telessauders/perguntas/quais-sao-os-cuidados-com-o-coto-umbilical-do-recem-nascido/</a>. Acesso em: 21 ago. 2025.</p>
 
-    <p>WAQAS, A. et al. <i>Screening programs for common maternal mental health disorders among perinatal women: report of the systematic review of evidence. 
+    <p>WAQAS, A. <i>et al. Screening programs for common maternal mental health disorders among perinatal women: report of the systematic review of evidence. 
     BMC Psychiatry</i>, v. 22, n. 54, 2022. DOI: <a href="https://doi.org/10.1186/s12888-022-03694-9">https://doi.org/10.1186/s12888-022-03694-9</a>.</p>
 
-    <p>WISNER, K. L. et al. <i>Onset timing, thoughts of self-harm, and diagnoses in postpartum women with screen-positive depression findings. JAMA Psychiatry</i>, v. 70, p. 490-498, 2013.</p>
+    <p>WISNER, K. L. <i>et al. Onset timing, thoughts of self-harm, and diagnoses in postpartum women with screen-positive depression findings. JAMA Psychiatry</i>, v. 70, p. 490-498, 2013.</p>
 
     <p>WHITTON, A.; WARNER, R.; APPLEBY, L. <i>The pathway to care in post-natal depression: women's attitudes to post-natal depression and its treatment. British Journal of General Practice</i>, v. 46, n. 408, p. 427-428, 1996.</p>
 
