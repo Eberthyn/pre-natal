@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "Alternativa A: Excelente! Esta alternativa é a INCORRETA e, portanto, a resposta para a questão. A episiotomia não deve ser realizada rotineiramente. Seu uso deve ser restrito a situações específicas. A taxa recomendada pela Organização Mundial de Saúde (OMS) é de 10%. Episiotomias medianas devem ser proscritas. Quando indicada, recomenda-se a episiotomia mediolateral, realizada com ângulo entre 30° e 60°.";
+        "<b>CORRETA</b>. A atividade física regular (150 minutos de atividade física por semana) tem múltiplos benefícios, inclusive prevenção de dor lombar.";
     } else if (value == "B1") {
       mensagem =
-        "Alternativa B: A alternativa apresenta uma informação correta sobre posição materna no período expulsivo, o que a torna INCORRETA para a questão. A liberdade de posição materna durante o período expulsivo é recomendada para otimizar o conforto e a progressão do trabalho de parto.";
+        "<b>INCORRETA</b>. Se a mulher apresentar sangramento no primeiro trimestre (ameaça de aborto), deve ser orientada a evitar atividade física. Mas para mulheres assintomáticas, não existem evidências de que atividade física aumente o risco de aborto.";
     } else if (value == "C1") {
       mensagem =
-        "Alternativa C: A alternativa apresenta uma informação correta sobre os critérios de período expulsivo prolongado, o que a torna INCORRETA para a questão. Os tempos de 3 e 4 horas definem um período expulsivo prolongado, variando entre nulíparas e multíparas, com ou sem analgesia.";
+        "<b>INCORRETA</b>. Todo medicamento deve ser utilizado de forma racional durante a gravidez, inclusive analgésicos comuns. Não existem evidências de que dipirona ou paracetamol aumentem o risco de malformações fetais. Por isso, podem ser utilizados com segurança, quando indicados.";
     } else if (value == "D1") {
       mensagem =
-        "Alternativa D: A alternativa apresenta uma informação correta sobre tratamento de exaustão materna no período expulsivo com parto vaginal operatório, especificamente com o uso do vácuo extrator, o que a torna INCORRETA para a questão. O parto vaginal operatório pode ser uma opção em casos de exaustão materna, e o vácuo extrator é uma alternativa válida quando não há sofrimento fetal.";
+        "<b>INCORRETA</b>. É importante que a gestante passe pelo dentista, durante a gestação, como rotina. A consulta com o dentista é um indicador de qualidade da atenção básica. Não existem contraindicações para tratamento odontológico durante a gestação, incluindo tratamento de cáries dentárias, aplicação de anestesia e realização de raio X.";
     }
 
     $("#mensagem1").html(mensagem);

@@ -50,7 +50,7 @@ class ModalCreditos extends HTMLElement {
         <p>Isabela Schincariol</p>
         <i>Assessora de Comunicação</i>
 
-        <p>Alessandra Lisboa</p>
+        <p>Alessandra Guedes</p>
         <i>Designer Educacional</i>
 
         <p>Daniela Botelho</p>
