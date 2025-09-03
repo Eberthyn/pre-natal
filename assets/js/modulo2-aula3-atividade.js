@@ -1,5 +1,5 @@
 // MÓDULO 1 QUESTÃO 1
-var resposta = "C1"; // Resposta correta
+var resposta = "D1"; // Resposta correta
 $("input[name=questao1]").on("click", function () {
   var value = "";
   // seleciona apenas o que foi checado
@@ -12,7 +12,7 @@ $("input[name=questao1]").on("click", function () {
       value += $(this).val();
     });
 
-    if (value !== "C1") {
+    if (value !== "D1") {
       $("#feedback1").addClass("resposta-incorreta");
       $("#feedback1").removeClass("resposta-correta");
       $("input[name=questao1]").addClass("input-erro");
@@ -25,39 +25,39 @@ $("input[name=questao1]").on("click", function () {
     if (value === "A1") {
       $("#A1").addClass("resposta-incorreta");
       $("#B1").removeClass("resposta-incorreta");
-      $("#C1").removeClass("resposta-correta");
-      $("#D1").removeClass("resposta-incorreta");
+      $("#C1").removeClass("resposta-incorreta");
+      $("#D1").removeClass("resposta-correta");
     } else if (value === "B1") {
       $("#A1").removeClass("resposta-incorreta");
       $("#B1").addClass("resposta-incorreta");
-      $("#C1").removeClass("resposta-correta");
-      $("#D1").removeClass("resposta-incorreta");
+      $("#C1").removeClass("resposta-incorreta");
+      $("#D1").removeClass("resposta-correta");
     } else if (value === "C1") {
       $("#A1").removeClass("resposta-incorreta");
       $("#B1").removeClass("resposta-incorreta");
-      $("#C1").addClass("resposta-correta");
-      $("#D1").removeClass("resposta-incorreta");
+      $("#C1").addClass("resposta-incorreta");
+      $("#D1").removeClass("resposta-correta");
     } else if (value === "D1") {
       $("#A1").removeClass("resposta-incorreta");
       $("#B1").removeClass("resposta-incorreta");
-      $("#C1").removeClass("resposta-correta");
-      $("#D1").addClass("resposta-incorreta");
+      $("#C1").removeClass("resposta-incorreta");
+      $("#D1").addClass("resposta-correta");
     }
 
     var mensagem = "";
 
     if (resposta == value) {
       mensagem =
-        "Alternativa C: Muito bom! Esta alternativa é a INCORRETA e, portanto, a resposta para a questão, pois afirma que as apresentações pélvicas incompletas modo de joelhos ou de pés, e os limites de peso entre 2.000 e 3.500 gramas, são critérios seguros para o parto pélvico vaginal.<br><br> Gestantes com fetos em apresentação pélvica incompleta modo de nádegas pura ou pélvica completa, pesando entre 2.000 e 4.000 gramas, na ausência de restrição intrauterina do crescimento fetal, anomalias passíveis de distocias e hiperextensão do polo cefálico, em trabalho de parto espontâneo ou sob indução planejada no termo, com desejo e consentimento materno, e com médico obstetra experiente disponível, parecem ser as mais elegíveis para o parto vaginal.";
+        "<b>CORRETA</b>. As principais fontes de transmissão da toxoplasmose são alimentos e águas contaminadas com oocistos ou carnes e derivados contendo cistos teciduais. Todas as mulheres devem receber orientações sobre prevenção primária da infecção pelo <i>Toxoplasma gondii</i>. Isso deve ser feito através de folhetos explicativos e atividades educativas.";
     } else if (value == "A1") {
       mensagem =
-        "Alternativa A: A alternativa apresenta uma informação correta sobre os critérios de elegibilidade para o parto pélvico vaginal, o que a torna INCORRETA para a questão. As apresentações listadas, por permitirem melhor encaixe e descida, são geralmente mais favoráveis ao parto vaginal pélvico.";
+        "<b>INCORRETA</b>. O <i>Toxoplasma gondii</i> é um protozoário, não um vírus.";
     } else if (value == "B1") {
       mensagem =
-        "Alternativa B: A alternativa apresenta uma informação correta sobre manobras iniciais para o desprendimento da cabeça derradeira no parto pélvico vaginal em posição de litotomia, o que a torna INCORRETA para a questão. Mauriceau e Bracht são as técnicas essenciais, minimizando riscos para o bebê.";
-    } else if (value == "D1") {
+        "<b>INCORRETA</b>. Muitas pessoas denominam a toxoplasmose como “a doença do gato”, porque o gato faz parte do ciclo evolutivo do <i>Toxoplasma gondii</i>. Sim, isso é verdade, mas os gatos domésticos não são a principal fonte de transmissão da toxoplasmose.";
+    } else if (value == "C1") {
       mensagem =
-        "Alternativa D: A alternativa apresenta uma informação correta sobre Pré-natal de Qualidade pélvico vaginal na posição de quatro apoios, o que a torna INCORRETA para a questão. Os sinais apresentados são importantes para avaliar a progressão e o bem-estar fetal durante o parto pélvico em quatro apoios.";
+        "<b>INCORRETA</b>. As principais fontes de transmissão da toxoplasmose são alimentos e águas contaminadas com oocistos ou carnes e derivados contendo cistos teciduais. Todavia, o completo de todos os tipos de carne, incluindo porco, embutidos, frango, frutos do mar e outros, inativa os oocistos. Por isso, o consumo de carnes não é contraindicado.";
     }
 
     $("#mensagem1").html(mensagem);

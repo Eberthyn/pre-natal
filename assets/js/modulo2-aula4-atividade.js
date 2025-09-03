@@ -1,5 +1,5 @@
 // MÓDULO 1 QUESTÃO 1
-var resposta = "C1"; // Resposta correta
+var resposta = "A1"; // Resposta correta
 $("input[name=questao1]").on("click", function () {
   var value = "";
   // seleciona apenas o que foi checado
@@ -12,7 +12,7 @@ $("input[name=questao1]").on("click", function () {
       value += $(this).val();
     });
 
-    if (value !== "C1") {
+    if (value !== "A1") {
       $("#feedback1").addClass("resposta-incorreta");
       $("#feedback1").removeClass("resposta-correta");
       $("input[name=questao1]").addClass("input-erro");
@@ -23,24 +23,24 @@ $("input[name=questao1]").on("click", function () {
     }
 
     if (value === "A1") {
-      $("#A1").addClass("resposta-incorreta");
+      $("#A1").addClass("resposta-correta");
       $("#B1").removeClass("resposta-incorreta");
-      $("#C1").removeClass("resposta-correta");
+      $("#C1").removeClass("resposta-incorreta");
       $("#D1").removeClass("resposta-incorreta");
     } else if (value === "B1") {
-      $("#A1").removeClass("resposta-incorreta");
+      $("#A1").removeClass("resposta-correta");
       $("#B1").addClass("resposta-incorreta");
-      $("#C1").removeClass("resposta-correta");
+      $("#C1").removeClass("resposta-incorreta");
       $("#D1").removeClass("resposta-incorreta");
     } else if (value === "C1") {
-      $("#A1").removeClass("resposta-incorreta");
+      $("#A1").removeClass("resposta-correta");
       $("#B1").removeClass("resposta-incorreta");
-      $("#C1").addClass("resposta-correta");
+      $("#C1").addClass("resposta-incorreta");
       $("#D1").removeClass("resposta-incorreta");
     } else if (value === "D1") {
-      $("#A1").removeClass("resposta-incorreta");
+      $("#A1").removeClass("resposta-correta");
       $("#B1").removeClass("resposta-incorreta");
-      $("#C1").removeClass("resposta-correta");
+      $("#C1").removeClass("resposta-incorreta");
       $("#D1").addClass("resposta-incorreta");
     }
 
@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "Alternativa C: Muito bom! Esta alternativa é a INCORRETA e, portanto, a resposta para a questão, pois afirma que as apresentações pélvicas incompletas modo de joelhos ou de pés, e os limites de peso entre 2.000 e 3.500 gramas, são critérios seguros para o parto pélvico vaginal.<br><br> Gestantes com fetos em apresentação pélvica incompleta modo de nádegas pura ou pélvica completa, pesando entre 2.000 e 4.000 gramas, na ausência de restrição intrauterina do crescimento fetal, anomalias passíveis de distocias e hiperextensão do polo cefálico, em trabalho de parto espontâneo ou sob indução planejada no termo, com desejo e consentimento materno, e com médico obstetra experiente disponível, parecem ser as mais elegíveis para o parto vaginal.";
-    } else if (value == "A1") {
-      mensagem =
-        "Alternativa A: A alternativa apresenta uma informação correta sobre os critérios de elegibilidade para o parto pélvico vaginal, o que a torna INCORRETA para a questão. As apresentações listadas, por permitirem melhor encaixe e descida, são geralmente mais favoráveis ao parto vaginal pélvico.";
+        "<b>CORRETA</b>. Sim, esta é a recomendação do Ministério da Saúde. Muitos municípios fazem também um teste rápido no terceiro trimestre, antes da internação para o parto.";
     } else if (value == "B1") {
       mensagem =
-        "Alternativa B: A alternativa apresenta uma informação correta sobre manobras iniciais para o desprendimento da cabeça derradeira no parto pélvico vaginal em posição de litotomia, o que a torna INCORRETA para a questão. Mauriceau e Bracht são as técnicas essenciais, minimizando riscos para o bebê.";
+        "<b>INCORRETA</b>. A cesariana está indicada apenas quando a carga viral é desconhecida ou detectável (&gt; 1.000 cópias/mL), a partir de 34 semanas. Se a carga viral é detectável (&lt; 1.000 cópias/mL), ou indetectável, a via de parto pode ocorrer segundo indicação obstétrica. Isto é, se não houver nenhuma outra indicação para cesariana, a via preferencial é o parto vaginal. Por isso, é essencial que a equipe garanta a realização da Carga Viral com 34 semanas, para que o resultado esteja disponível no momento do parto, e a equipe obstétrica possa tomar a melhor decisão sobre via de parto.";
+    } else if (value == "C1") {
+      mensagem =
+        "<b>INCORRETA</b>. Em gestantes com carga viral indetectável, o risco de transmissão vertical é &lt; 1%, o que equivale a praticamente eliminar a transmissão vertical. Esse é o objetivo do programa de eliminação da transmissão vertical do HIV. No Brasil, várias cidades já atingiram este objetivo. O diagnóstico no início da gestação e o uso de terapia antiretroviral são fundamentais para a obtenção de cargas virais indetectáveis.";
     } else if (value == "D1") {
       mensagem =
-        "Alternativa D: A alternativa apresenta uma informação correta sobre Pré-natal de Qualidade pélvico vaginal na posição de quatro apoios, o que a torna INCORRETA para a questão. Os sinais apresentados são importantes para avaliar a progressão e o bem-estar fetal durante o parto pélvico em quatro apoios.";
+        "<b>INCORRETA</b>. O aleitamento materno está contraindicado em recém-nascidos filhos de mulheres vivendo com HIV. Por isso, essas mulheres devem receber gabergolina, logo após o nascimento, para supressão do aleitamento. No Brasil, o Sistema Único de Saúde (SUS) fornece gratuitamente fórmulas lácteas para bebês de mães HIV positivas.";
     }
 
     $("#mensagem1").html(mensagem);
