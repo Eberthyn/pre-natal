@@ -12,6 +12,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
   <link href="../assets/css/styles.css" rel="stylesheet" />
+  <style>
+    .tabela th {
+      padding: 16px;
+    }
+  </style>
 </head>
 
 <body>
@@ -751,185 +756,257 @@
         <p>Assista ao vídeo e conheça como aplicar o questionário que avalia a gravidade dos sintomas de náuseas e
           vômitos. </p>
 
-        <!-- Video 1 -->
-        <div class="row video justify-content-center">
-          <div class="col-md-8">
-            <div class="embed-responsive embed-responsive-16by9">
-              <video width="560" height="315" class="embed-responsive-item" controls>
-                <source src="" type="video/mp4" frameborder="0" allow="encrypted-media"
-                  allowfullscreen="allowfullscreen" />
-              </video>
-            </div>
-            <div class="imagemLegenda"><small>Fonte: Campus Virtual Fiocruz</small></div>
-          </div>
-        </div>
+        <h1>Escore de PUQE</h1>
 
-        <p>Agora que você já sabe como avaliar a gravidade das náuseas e dos vômitos durante a gravidez, veja a seguir
-          quais intervenções podem ser orientadas à gestante.</p>
+        <p>É um questionário para avaliar a gravidade das náuseas e vômitos durante a gravidez. É um questionário que
+          pode ser autoaplicável. Em língua inglesa existem APP’s que podem ser utilizados pela própria mulher. Pode ser
+          aplicado pelo ACS à gestante, durante as visitas domiciliares. Se a nota é ≥ 7, a gestante desse ser orientada
+          a procurar atendimento médico. Mas se < 7, o uso de medicamentos sintomáticos ou medidas não farmacológicas é
+            suficiente.</p>
 
-        <p>Intervenções para sintomas fisiológicos comuns.</p>
+            <!-- Tabela: Motherisk PUQE (versão roxa no mesmo molde) -->
+            <div class="row tabela centro">
+              <div class="col-12">
+                <table class="w-100 text-center">
+                  <!-- Título -->
+                  <tr>
+                    <th colspan="5" style="background-color:#aa1c95; color:#fff;">
+                      Motherisk PUQE scoring system (PUQE = Pregnancy‑unique quantification of emesis and náusea)
+                    </th>
+                  </tr>
 
-        <!-- Tabela: Recomendações para queixas comuns na gestação -->
-        <div class="row tabela centro">
-          <div class="col-12">
-            <div class="tabela-igual">
-              <table class="w-100">
-                <!-- Cabeçalho: só a última coluna tem texto -->
-                <tr>
-                  <th colspan="2" style="background-color:#aa1c95; color:#fff; border-right:1px solid white;"></th>
-                  <th style="background-color:#aa1c95; color:#fff;">Tipo de recomendação</th>
-                </tr>
+                  <!-- Pergunta 1 -->
+                  <tr>
+                    <th colspan="5" style="background-color:#730162; color:#fff;">
+                      1. Por quanto tempo você se sentiu nauseada nas últimas 24 horas?
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Nunca<br><small>(n=1)</small></td>
+                    <td>Até 4 horas<br><small>(n=2)</small></td>
+                    <td>Até 8 horas<br><small>(n=3)</small></td>
+                    <td>Até 12 horas<br><small>(n=4)</small></td>
+                    <td>&gt; 12 horas<br><small>(n=5)</small></td>
+                  </tr>
 
-                <tr>
-                  <td>Náuseas e vômitos</td>
-                  <td>D.1: Gengibre, camomila, vitamina B6 e/ou acupuntura são recomendados para aliviar as náuseas no
-                    início da gravidez, com base nas preferências da mulher e nas opções disponíveis.</td>
-                  <td>Recomendada</td>
-                </tr>
+                  <!-- Pergunta 2 -->
+                  <tr>
+                    <th colspan="5" style="background-color:#730162; color:#fff;">
+                      2. Quantos episódios de vômitos apresentou nas últimas 24 horas?
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Nenhum<br><small>(n=1)</small></td>
+                    <td>Um episódio<br><small>(n=2)</small></td>
+                    <td>Até 3 episódios<br><small>(n=3)</small></td>
+                    <td>Até 4 episódios<br><small>(n=4)</small></td>
+                    <td>&gt; 5 episódios<br><small>(n=5)</small></td>
+                  </tr>
 
-                <tr>
-                  <td>Azia</td>
-                  <td>D.2: Recomenda-se aconselhamento sobre dieta e estilo de vida para evitar e aliviar a azia na
-                    gravidez. Podem ser oferecidos preparados antiácidos às mulheres com sintomas incômodos que não
-                    possam ser aliviados pela mudança de estilo de vida.</td>
-                  <td>Recomendada</td>
-                </tr>
-
-                <tr>
-                  <td>Cãibras nas pernas</td>
-                  <td>D.3: Pode usar-se magnésio, cálcio ou opções de tratamento não farmacológico para alívio das
-                    cãibras nas pernas na gravidez, com base nas preferências da mulher e nas opções disponíveis.</td>
-                  <td>Recomendada</td>
-                </tr>
-
-                <tr>
-                  <td>Dores lombares e pélvicas</td>
-                  <td>D.4: Recomenda-se exercício regular durante toda a gravidez, para evitar as dores lombares e
-                    pélvicas. Existem várias opções de tratamento que podem ser usadas, como a fisioterapia, cintas de
-                    suporte e acupuntura, com base nas preferências da mulher e nas opções disponíveis.</td>
-                  <td>Recomendada</td>
-                </tr>
-
-                <tr>
-                  <td>Obstipação</td>
-                  <td>D.5: A sêmola de trigo ou outras podem ser usadas para aliviar a obstipação durante a gravidez, se
-                    não houver resposta à modificação da dieta, com base nas preferências da mulher e nas opções
-                    disponíveis.</td>
-                  <td>Recomendada</td>
-                </tr>
-
-                <tr>
-                  <td>Veias varicosas e edema</td>
-                  <td>D.6: Opções não farmacêuticas, como meias de descanso, elevação das pernas e imersão em água podem
-                    ser usadas para o tratamento das veias varicosas e edemas na gravidez, com base nas preferências da
-                    mulher e nas opções disponíveis.</td>
-                  <td>Recomendada</td>
-                </tr>
-              </table>
-              <div class="imagemLegenda">
-                <small>Fonte: <a
-                    href="https://www.abenforj.com.br/site/arquivos/manuais/289_Prenatal__WHO-RHR-16.12.pdf"
-                    target="_blank" rel="noopener noreferrer" style="color: black;"><u>OMS, 2016</u></a>.</small>
+                  <!-- Pergunta 3 -->
+                  <tr>
+                    <th colspan="5" style="background-color:#730162; color:#fff;">
+                      3. Quantos momentos observou intensa salivação e esforço de vômito nas últimas 24 horas?
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Nenhum<br><small>(n=1)</small></td>
+                    <td>Até 3 vezes<br><small>(n=2)</small></td>
+                    <td>Até 5 vezes<br><small>(n=3)</small></td>
+                    <td>Até 8 vezes<br><small>(n=4)</small></td>
+                    <td>Todo o tempo<br><small>(n=5)</small></td>
+                  </tr>
+                </table>
+                <div class="imagemLegenda">
+                  <small>Score total: Leve (≤ 6); Moderado (7-12); Grave (≥13)</small><br>
+                </div>
+                <!-- <div class="imagemLegenda">
+                  <small>Fonte: </small>
+                </div> -->
               </div>
             </div>
-          </div>
-        </div>
 
-        <p>É importante não deixar passar despercebidos sinais e sintomas de doenças mais graves. Sabemos que o fator
-          que mais contribui para a mortalidade materna é o atraso no diagnóstico de doenças graves. Evite que ocorram
-          atrasos quando a gestante procurar um serviço de saúde. Sintomas de doenças graves, na fase mais inicial,
-          podem ser confundidos com alterações fisiológicas e sua importância pode não ser reconhecida.</p>
+            <p>Agora que você já sabe como avaliar a gravidade das náuseas e dos vômitos durante a gravidez, veja a
+              seguir
+              quais intervenções podem ser orientadas à gestante.</p>
 
-        <div class="centro">
-          <p style="color: #AA1C95;">
-            <b>Esteja atento aos sinais de alerta!</b>
-          </p>
-        </div>
+            <p>Intervenções para sintomas fisiológicos comuns.</p>
 
-        <p>Você sabe quais são os sinais de alerta mais importantes?</p>
+            <!-- Tabela: Recomendações para queixas comuns na gestação -->
+            <div class="row tabela centro">
+              <div class="col-12">
+                <div class="tabela-igual">
+                  <table class="w-100">
+                    <!-- Cabeçalho: só a última coluna tem texto -->
+                    <tr>
+                      <th colspan="2" style="background-color:#aa1c95; color:#fff; border-right:1px solid white;"></th>
+                      <th style="background-color:#aa1c95; color:#fff;">Tipo de recomendação</th>
+                    </tr>
 
-        <ul>
-          <li class="icon arrow">Pressão alta;</li>
-          <li class="icon arrow">Sentir dores fortes de cabeça, com a visão embaralhada ou enxergando estrelinhas;</li>
-          <li class="icon arrow">Tiver sangramento ou perda de líquido (água) pela vagina;</li>
-          <li class="icon arrow">Apresentar muito inchaço nos pés, nas pernas e rosto, principalmente ao acordar;</li>
-          <li class="icon arrow">Tiver dor ou ardor na uretra (local por onde sai a urina) ao urinar;</li>
-          <li class="icon arrow">Houver sangramento, mesmo sem dor;</li>
-          <li class="icon arrow">Tiver contrações fortes, dolorosas e frequentes;</li>
-          <li class="icon arrow">
-            <p>Apresentar febre, dor de cabeça, dor no corpo, vermelhidão nos olhos ou manchas vermelhas na pele.</p>
-          </li>
-        </ul>
+                    <tr>
+                      <td>Náuseas e vômitos</td>
+                      <td>D.1: Gengibre, camomila, vitamina B6 e/ou acupuntura são recomendados para aliviar as náuseas
+                        no
+                        início da gravidez, com base nas preferências da mulher e nas opções disponíveis.</td>
+                      <td>Recomendada</td>
+                    </tr>
 
-        <p>Na vigência de surtos ou epidemias de arboviroses (dengue, zika, Chikungunya) ou outras doenças infecciosas,
-          esteja atento aos sintomas apresentados pela gestante. Na dúvida, solicite avaliação da equipe médica. Se o
-          médico avaliou e os sintomas continuam ou pioram, peça ao médico para avaliar novamente.
-        </p>
+                    <tr>
+                      <td>Azia</td>
+                      <td>D.2: Recomenda-se aconselhamento sobre dieta e estilo de vida para evitar e aliviar a azia na
+                        gravidez. Podem ser oferecidos preparados antiácidos às mulheres com sintomas incômodos que não
+                        possam ser aliviados pela mudança de estilo de vida.</td>
+                      <td>Recomendada</td>
+                    </tr>
 
-        <p>Ao final desta aula, é fundamental que cada um de vocês, como agentes comunitários de saúde, compreenda a
-          importância de observar atentamente os sinais e sintomas das gestantes. O acompanhamento precoce e a
-          identificação de alterações no estado de saúde da mãe e do bebê podem fazer toda a diferença na prevenção de
-          complicações graves. Ao perceber os sinais normais e, principalmente, os sinais de alerta, vocês têm a
-          oportunidade de agir rapidamente, oferecendo orientações adequadas e encaminhamentos para o cuidado da equipe
-          médica. Lembrem-se de que a confiança da gestante em vocês é um dos pilares para garantir um pré-natal de
-          qualidade.
-        </p>
+                    <tr>
+                      <td>Cãibras nas pernas</td>
+                      <td>D.3: Pode usar-se magnésio, cálcio ou opções de tratamento não farmacológico para alívio das
+                        cãibras nas pernas na gravidez, com base nas preferências da mulher e nas opções disponíveis.
+                      </td>
+                      <td>Recomendada</td>
+                    </tr>
 
-        <div class="quiz">
-          <h1>Atividade</h1>
+                    <tr>
+                      <td>Dores lombares e pélvicas</td>
+                      <td>D.4: Recomenda-se exercício regular durante toda a gravidez, para evitar as dores lombares e
+                        pélvicas. Existem várias opções de tratamento que podem ser usadas, como a fisioterapia, cintas
+                        de
+                        suporte e acupuntura, com base nas preferências da mulher e nas opções disponíveis.</td>
+                      <td>Recomendada</td>
+                    </tr>
 
-          <p>
-            <b><i>Em relação aos sinais e sintomas comuns na gravidez, é correto afirmar que:</i></b>
-          </p>
+                    <tr>
+                      <td>Obstipação</td>
+                      <td>D.5: A sêmola de trigo ou outras podem ser usadas para aliviar a obstipação durante a
+                        gravidez, se
+                        não houver resposta à modificação da dieta, com base nas preferências da mulher e nas opções
+                        disponíveis.</td>
+                      <td>Recomendada</td>
+                    </tr>
 
-          <div class="alternativas">
-            <div class="input-radio">
-              <input name="questao1" type="radio" value="A1" />
-              <label id="A1">
-                <div class="radio-btn"></div>
-                a) Recomenda-se exercício regular durante toda a gravidez, para evitar as dores lombares e pélvicas.
-              </label>
+                    <tr>
+                      <td>Veias varicosas e edema</td>
+                      <td>D.6: Opções não farmacêuticas, como meias de descanso, elevação das pernas e imersão em água
+                        podem
+                        ser usadas para o tratamento das veias varicosas e edemas na gravidez, com base nas preferências
+                        da
+                        mulher e nas opções disponíveis.</td>
+                      <td>Recomendada</td>
+                    </tr>
+                  </table>
+                  <div class="imagemLegenda">
+                    <small>Fonte: OMS, 2016.</small>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="input-radio">
-              <input name="questao1" type="radio" value="B1" />
-              <label id="B1">
-                <div class="radio-btn"></div>
-                b) Atividade física na gravidez não é recomendada no primeiro trimestre, porque aumenta o risco de
-                aborto e parto prematuro.
-              </label>
-            </div>
-            <div class="input-radio">
-              <input name="questao1" type="radio" value="C1" />
-              <label id="C1">
-                <div class="radio-btn"></div>
-                c) O uso de medicamentos, mesmo analgésicos comuns, deve ser evitado na gravidez, devido ao risco
-                de malformações fetais.
-              </label>
-            </div>
-            <div class="input-radio">
-              <input name="questao1" type="radio" value="D1" />
-              <label id="D1">
-                <div class="radio-btn"></div>
-                d) Tratamento odontológico deve ser evitado na gravidez, devido aos riscos do anestésico para o feto.
-              </label>
-            </div>
-          </div>
-          <br />
-          <div id="feedback1" class="feedback escondeFeedback">
-            <p id="mensagem1"></p>
-          </div>
-        </div>
 
-        <!-- Botões de navegação -->
-        <div class="row botao">
-          <a href="modulo1-aula4.html" class="btn btn-sm" id="botaoVoltar" role="button" alt="Voltar">
-            <strong><i class="fas fa-chevron-left"></i>Módulo 1 Aula
-              4</strong></a>
-          <a href="../modulo2/modulo2-aula1.html" class="btn btn-sm" id="botaoAvancar" role="button" alt="Avançar">
-            <strong>Módulo 2 Aula 1<i class="fas fa-chevron-right"></i></strong></a>
-        </div>
+            <p>É importante não deixar passar despercebidos sinais e sintomas de doenças mais graves. Sabemos que o
+              fator
+              que mais contribui para a mortalidade materna é o atraso no diagnóstico de doenças graves. Evite que
+              ocorram
+              atrasos quando a gestante procurar um serviço de saúde. Sintomas de doenças graves, na fase mais inicial,
+              podem ser confundidos com alterações fisiológicas e sua importância pode não ser reconhecida.</p>
 
-        <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
+            <div class="centro">
+              <p style="color: #AA1C95;">
+                <b>Esteja atento aos sinais de alerta!</b>
+              </p>
+            </div>
+
+            <p>Você sabe quais são os sinais de alerta mais importantes?</p>
+
+            <ul>
+              <li class="icon arrow">Pressão alta;</li>
+              <li class="icon arrow">Sentir dores fortes de cabeça, com a visão embaralhada ou enxergando estrelinhas;
+              </li>
+              <li class="icon arrow">Tiver sangramento ou perda de líquido (água) pela vagina;</li>
+              <li class="icon arrow">Apresentar muito inchaço nos pés, nas pernas e rosto, principalmente ao acordar;
+              </li>
+              <li class="icon arrow">Tiver dor ou ardor na uretra (local por onde sai a urina) ao urinar;</li>
+              <li class="icon arrow">Houver sangramento, mesmo sem dor;</li>
+              <li class="icon arrow">Tiver contrações fortes, dolorosas e frequentes;</li>
+              <li class="icon arrow">
+                <p>Apresentar febre, dor de cabeça, dor no corpo, vermelhidão nos olhos ou manchas vermelhas na pele.
+                </p>
+              </li>
+            </ul>
+
+            <p>Na vigência de surtos ou epidemias de arboviroses (dengue, zika, Chikungunya) ou outras doenças
+              infecciosas,
+              esteja atento aos sintomas apresentados pela gestante. Na dúvida, solicite avaliação da equipe médica. Se
+              o
+              médico avaliou e os sintomas continuam ou pioram, peça ao médico para avaliar novamente.
+            </p>
+
+            <p>Ao final desta aula, é fundamental que cada um de vocês, como agentes comunitários de saúde, compreenda a
+              importância de observar atentamente os sinais e sintomas das gestantes. O acompanhamento precoce e a
+              identificação de alterações no estado de saúde da mãe e do bebê podem fazer toda a diferença na prevenção
+              de
+              complicações graves. Ao perceber os sinais normais e, principalmente, os sinais de alerta, vocês têm a
+              oportunidade de agir rapidamente, oferecendo orientações adequadas e encaminhamentos para o cuidado da
+              equipe
+              médica. Lembrem-se de que a confiança da gestante em vocês é um dos pilares para garantir um pré-natal de
+              qualidade.
+            </p>
+
+            <div class="quiz">
+              <h1>Atividade</h1>
+
+              <p>
+                <b><i>Em relação aos sinais e sintomas comuns na gravidez, é correto afirmar que:</i></b>
+              </p>
+
+              <div class="alternativas">
+                <div class="input-radio">
+                  <input name="questao1" type="radio" value="A1" />
+                  <label id="A1">
+                    <div class="radio-btn"></div>
+                    a) Recomenda-se exercício regular durante toda a gravidez, para evitar as dores lombares e pélvicas.
+                  </label>
+                </div>
+                <div class="input-radio">
+                  <input name="questao1" type="radio" value="B1" />
+                  <label id="B1">
+                    <div class="radio-btn"></div>
+                    b) Atividade física na gravidez não é recomendada no primeiro trimestre, porque aumenta o risco de
+                    aborto e parto prematuro.
+                  </label>
+                </div>
+                <div class="input-radio">
+                  <input name="questao1" type="radio" value="C1" />
+                  <label id="C1">
+                    <div class="radio-btn"></div>
+                    c) O uso de medicamentos, mesmo analgésicos comuns, deve ser evitado na gravidez, devido ao risco
+                    de malformações fetais.
+                  </label>
+                </div>
+                <div class="input-radio">
+                  <input name="questao1" type="radio" value="D1" />
+                  <label id="D1">
+                    <div class="radio-btn"></div>
+                    d) Tratamento odontológico deve ser evitado na gravidez, devido aos riscos do anestésico para o
+                    feto.
+                  </label>
+                </div>
+              </div>
+              <br />
+              <div id="feedback1" class="feedback escondeFeedback">
+                <p id="mensagem1"></p>
+              </div>
+            </div>
+
+            <!-- Botões de navegação -->
+            <div class="row botao">
+              <a href="modulo1-aula4.html" class="btn btn-sm" id="botaoVoltar" role="button" alt="Voltar">
+                <strong><i class="fas fa-chevron-left"></i>Módulo 1 Aula
+                  4</strong></a>
+              <a href="../modulo2/modulo2-aula1.html" class="btn btn-sm" id="botaoAvancar" role="button" alt="Avançar">
+                <strong>Módulo 2 Aula 1<i class="fas fa-chevron-right"></i></strong></a>
+            </div>
+
+            <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
       </div>
 
       <!-- Rodapé -->
