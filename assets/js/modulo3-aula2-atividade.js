@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETO</b>. Sim, o ultrassom precoce, realizado no primeiro trimestre de gestação é o método mais preciso para estimar a idade gestacional. A equipe de saúde acolher as mulheres com suspeita de gravidez, realizar o diagnóstico com o Teste Rápido de urina e, imediatamente, inserir as mulheres com teste positivo na agenda do pré-natal.";
+        "<b>CORRETO</b>. Sim, os profissionais que assistem o pré-natal devem definir com clareza, se o diabetes já existia antes da gravidez, ou se apareceu depois. Se já existia antes, é importante descrever de forma completa a história da doença: momento do diagnóstico, tratamentos realizados, complicações existentes, etc. O prognóstico e os cuidados podem ser diferentes.";
     } else if (value == "B1") {
       mensagem =
-        "<b>INCORRETO</b>. O ultrassom endovaginal pode mostrar uma gestação intrauterina a partir de 5-6 semanas de atraso menstrual. Mas, se não houver nenhum sangramento ou dor abdominal, não é necessário fazer um ultrassom de forma tão prece.";
+        "<b>INCORRETO</b>. O rastreio do diabetes gestacional é feito através do Teste Oral de Tolerância á Glicose (TOTG), realizado entre 24 e 28 semanas. Glicemia é mensurada em jejum, 1 hora e 2 horas após ingestão de 75 gramas de dextrosol. Excepcionalmente, em locais em que o TOTG não está disponível, ou quando a mulher não tolera ingestão de dextrosol, o rastreio entre 24 e 28 semanas pode ser feito apenas com uma glicemia de jejum (Locais com viabilidade financeira ou disponibilidade técnica parcial).";
     } else if (value == "C1") {
       mensagem =
-        "<b>INCORRETO</b>. A DPP (Data Provável do Parto) corresponde a 40 semanas de gestação. Para a mulher, é importante conhecer a DPP, para que ela e sua família possam organizar a chegada do bebê. A maioria dos bebês nascem antes de 40 semanas. Todavia, cerca de 30-40% dos bebês podem nascer após 40 semanas. A equipe de saúde deve explicar significado da DPP, para que a mulher e sua família não criem expectativas não realistas de que o bebê deve nascer antes dessa data.";
+        "<b>INCORRETO</b>. Glicemia de jejum ≥ 126 mg/dL em qualquer momento da gravidez confirma o diagnóstico de diabetes pré-gestacional.";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETO</b>. É verdade que a DPP é apenas uma data aproximada para o nascimento. Mas, é importante para que a mulher e sua família possam organizar a chegada do bebê.";
+        "<b>INCORRETO</b>. Desde 2017, a diretriz do Ministério da Saúde é fazer o rastreio universal. Isso significa que o Teste oral de Tolerância à Glicose (TOTG) deve ser oferecida a todas as mulheres, entre 24-28 semanas.";
     }
 
     $("#mensagem1").html(mensagem);

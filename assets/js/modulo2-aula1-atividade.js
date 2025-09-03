@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETA</b>. Sífilis latente é definida como um período em que não se observa nenhum sinal ou sintoma clínico de sífilis, verificando-se, porém, reatividade nos testes imunológicos que detectam anticorpos. <u>A maioria dos diagnósticos ocorre nesse estágio</u>.";
+        "<b>CORRETO</b>. Sífilis latente é definida como um período em que não se observa nenhum sinal ou sintoma clínico de sífilis, verificando-se, porém, reatividade nos testes imunológicos que detectam anticorpos. <u>A maioria dos diagnósticos ocorre nesse estágio</u>.";
     } else if (value == "B1") {
       mensagem =
-        "<b>INCORRETA</b>. A sífilis latente é dividida em: latente recente (até um ano de infecção) e latente tardia (mais de um ano de infecção); Na sífilis latente não aparecem sinais ou sintomas; sífilis recente é definida.";
+        "<b>INCORRETO</b>. A sífilis latente é dividida em: latente recente (até um ano de infecção) e latente tardia (mais de um ano de infecção); Na sífilis latente não aparecem sinais ou sintomas; sífilis recente é definida.";
     } else if (value == "C1") {
       mensagem =
-        "<b>INCORRETA</b>. Na sífilis secundária, são comuns sinais e sintomas sistêmicos da infecção, mimetizando manifestações clinicas de outras enfermidades. Manifestações dermatológicas são comuns. Podem ocorrer erupções cutâneas em forma de maculas (roséola) e/ou pápulas, principalmente no tronco; lesões eritemato-escamosas palmo-plantares; placas eritematosas branco-acinzentadas nas mucosas; lesões papulo-hipertróficas nas mucosas ou pregas cutâneas; alopecia em clareira e madarose (perda da sobrancelha, em especial do terço distal), febre, mal-estar, cefaleia, adinamia e linfadenopatia generalizada. As lesões secundarias são ricas em treponemas.";
+        "<b>INCORRETO</b>. Na sífilis secundária, são comuns sinais e sintomas sistêmicos da infecção, mimetizando manifestações clinicas de outras enfermidades. Manifestações dermatológicas são comuns. Podem ocorrer erupções cutâneas em forma de maculas (roséola) e/ou pápulas, principalmente no tronco; lesões eritemato-escamosas palmo-plantares; placas eritematosas branco-acinzentadas nas mucosas; lesões papulo-hipertróficas nas mucosas ou pregas cutâneas; alopecia em clareira e madarose (perda da sobrancelha, em especial do terço distal), febre, mal-estar, cefaleia, adinamia e linfadenopatia generalizada. As lesões secundarias são ricas em treponemas.";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETA</b>. A forma clínica mais frequente na gravidez é a sífilis latente (na maioria das vezes de duração indeterminada)";
+        "<b>INCORRETO</b>. A forma clínica mais frequente na gravidez é a sífilis latente (na maioria das vezes de duração indeterminada).";
     }
 
     $("#mensagem1").html(mensagem);

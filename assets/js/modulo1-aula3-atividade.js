@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETA</b>. Sim, isso é correto. Conhecer os hábitos alimentares da gestante e fornecer orientações sobre dieta saudável é uma atividade essencial do pré-natal. Orientações sobre dieta saudável podem ser fornecidas de forma individual, durante a consulta, ou de forma coletiva, em atividades de grupo.";
+        "<b>CORRETO</b>. Sim, isso é correto. Conhecer os hábitos alimentares da gestante e fornecer orientações sobre dieta saudável é uma atividade essencial do pré-natal. Orientações sobre dieta saudável podem ser fornecidas de forma individual, durante a consulta, ou de forma coletiva, em atividades de grupo.";
     } else if (value == "B1") {
       mensagem =
-        "<b>INCORRETA</b>. Baixo peso no início da gestação (IMC &lt; 18,5) ou ganho de peso abaixo do esperado durante a gestação aumentam o risco de fetos Pequenos para a Idade Gestacional. Risco aumentado de preeclampsia e diabetes gestacional está relacionado a obesidade e ganho de peso excessivo durante a gestação.";
+        "<b>INCORRETO</b>. Baixo peso no início da gestação (IMC &lt; 18,5) ou ganho de peso abaixo do esperado durante a gestação aumentam o risco de fetos Pequenos para a Idade Gestacional. Risco aumentado de preeclampsia e diabetes gestacional está relacionado a obesidade e ganho de peso excessivo durante a gestação.";
     } else if (value == "C1") {
       mensagem =
-        '<b>INCORRETA</b>. Essa informação não é verdadeira. Conheça o <a href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed.pdf" target="_blank">Guia alimentar para a população brasileira</a>';
+        '<b>INCORRETO</b>. Essa informação não é verdadeira. Conheça o <a href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed.pdf" target="_blank">Guia alimentar para a população brasileira</a>.';
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETA</b>. Obesidade, segundo a Classificação da Organização Mundial de Saúde, é definida como um IMC ≥ 30. Um IMC ≥ 25 e &lt; 30 é definido como sobrepeso. O sobrepeso também aumenta o risco gestacional para doenças como diabetes gestacional.";
+        "<b>INCORRETO</b>. Obesidade, segundo a Classificação da Organização Mundial de Saúde, é definida como um IMC ≥ 30. Um IMC ≥ 25 e &lt; 30 é definido como sobrepeso. O sobrepeso também aumenta o risco gestacional para doenças como diabetes gestacional.";
     }
 
     $("#mensagem1").html(mensagem);

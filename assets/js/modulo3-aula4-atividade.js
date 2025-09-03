@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETO</b>. Sim, o ultrassom precoce, realizado no primeiro trimestre de gestação é o método mais preciso para estimar a idade gestacional. A equipe de saúde acolher as mulheres com suspeita de gravidez, realizar o diagnóstico com o Teste Rápido de urina e, imediatamente, inserir as mulheres com teste positivo na agenda do pré-natal.";
+        "<b>CORRETO</b>. Sim, o tabagismo é um importante fator de risco, para restrição de crescimento fetal intrauterino. Outros fatores de risco são: idade materna &gt; 40 anos, hipertensão arterial, diabetes com doença vascular, exercício físico vigoroso (atletas), história prévia de óbito fetal. Estes fatores podem ser identificados desde a primeira consulta através da anamnese e exame físico e devem ser registrados na caderneta de gestante.";
     } else if (value == "B1") {
       mensagem =
-        "<b>INCORRETO</b>. O ultrassom endovaginal pode mostrar uma gestação intrauterina a partir de 5-6 semanas de atraso menstrual. Mas, se não houver nenhum sangramento ou dor abdominal, não é necessário fazer um ultrassom de forma tão prece.";
+        "<b>INCORRETO</b>. Atualmente o ultrassom tornou-se um exame amplamente disponível, e muitas pessoas acham que o ultrassom deve ser feito várias vezes durante a gravidez. Todavia, em gestantes de baixo risco, o Ministério da Saúde do Brasil recomenda um único ultrassom no início da gravidez, para determinar a idade gestacional. Outros exames devem ser realizados a critério clínico, isto é, se o prenatalista julgar necessário.";
     } else if (value == "C1") {
       mensagem =
-        "<b>INCORRETO</b>. A DPP (Data Provável do Parto) corresponde a 40 semanas de gestação. Para a mulher, é importante conhecer a DPP, para que ela e sua família possam organizar a chegada do bebê. A maioria dos bebês nascem antes de 40 semanas. Todavia, cerca de 30-40% dos bebês podem nascer após 40 semanas. A equipe de saúde deve explicar significado da DPP, para que a mulher e sua família não criem expectativas não realistas de que o bebê deve nascer antes dessa data.";
+        "<b>INCORRETO</b>. A avaliação da altura uterina com uma fita métrica é um método barato e acessível para avaliar o crescimento uterino e deve ser realizada em todas as mulheres, em todas as consultas de prenatal, a partir de 16-20 semanas. O objetivo é identificar desvios do crescimento fetal. Se a medida da altura uterina estivar acima do esperado para a idade gestacional, a suspeita é de fetos Grandes para a Idade Gestacional (GIG). Se abaixo, a suspeita é fetos Pequenos para a Idade Gestacional (PIG). Em qualquer suspeito de crescimento fetal anormal, um ultrassom deve ser solicitado para confirmar o diagnóstico.";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETO</b>. É verdade que a DPP é apenas uma data aproximada para o nascimento. Mas, é importante para que a mulher e sua família possam organizar a chegada do bebê.";
+        "<b>INCORRETO</b>. A mensuração da altura uterina é feita com uma fita métrica medindo desde a sínfise púbica até fundo uterino, não até a cicatriz umbilical.";
     }
 
     $("#mensagem1").html(mensagem);

@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETO</b>. Bacteriúria assintomática (BA) é um diagnóstico baseado em cultura da urina. Essa é uma definição de grande importância prática. Significa que não é possível fazer o diagnóstico com outros tipos de exame como EAS (Urina tipo 1), ou Gram de gota. Infelizmente, em muitos locais do Brasil, a cultura de urina não está disponível. Nestes locais, o uso de EAS ou Gram de gota para diagnosticar BA leva ao que se chama “superdiagnóstico”, que é o diagnóstico em excesso, ou diagnóstico de uma condição que na verdade não existe, levando ao uso desnecessário de antibióticos.";
+        "<b>CORRETO</b>. As mulheres com diagnóstico de hipertensão, em geral, recebem alta em 48-72 horas após o nascimento. Devido à reabsorção de líquidos, os níveis pressóricos podem subir durante a primeira semana após o parto. Assim, mulheres com pressão arterial bem controlada no momento da alta, podem apresentar descontrole pressórico nos dias seguintes. Por isso, a pressão arterial dessas mulheres deve ser cuidadosamente acompanhada até 10-14 dias após o parto. A PA deve ser medida a cada 1-2 dias, nesse período.";
     } else if (value == "A1") {
       mensagem =
-        "<b>INCORRETO</b>. A bacteriúria assintomática foi associada a aumento no risco de prematuridade, baixo peso, sepse neonatal, admissão em UTI neonatal e óbito fetal/neonatal, além de pielonefrite e óbito materno. Por isso o rastreio está indicado.";
+        "<b>INCORRETO</b>. Febre, dor abdominal e corrimento com odor fétido no puerpério são sinais de alarme. Mulheres apresentando estes sinais de alarme devem ser imediatamente avaliadas por um médico.";
     } else if (value == "C1") {
       mensagem =
-        "<b>INCORRETO</b>. Esses sinais e sintomas são típicos de pielonefrite, que é a infecção renal. Na bacteriúria assintomática, como o nome diz, não existem sintomas.";
+        "<b>INCORRETO</b>. Puerpério é o período que se estende desde o nascimento do bebê, até 42 dias após o parto (6 semanas).";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETO</b>. Bacteriúria assintomática (BA) é um diagnóstico baseado em cultura da urina. Essa é uma definição de grande importância prática. Significa que não é possível fazer o diagnóstico com outros tipos de exame como EAS (Urina tipo 1), ou Gram de gota. Infelizmente, em muitos locais do Brasil, a cultura de urina não está disponível. Nestes locais, o uso de EAS ou Gram de gota para diagnosticar BA leva ao que se chama “superdiagnóstico”, que é o diagnóstico em excesso, ou diagnóstico de uma condição que na verdade não existe, levando ao uso desnecessário de antibióticos.";
+        "<b>INCORRETO</b>. Puerpério é o período que se estende desde o nascimento do bebê, até 42 dias após o parto (6 semanas). Ficar de repouso e não lavar o cabelo é uma crendice popular, que deve ser desmistificada pelos profissionais de saúde.";
     }
 
     $("#mensagem1").html(mensagem);

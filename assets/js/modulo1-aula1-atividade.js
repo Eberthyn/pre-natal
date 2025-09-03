@@ -57,7 +57,7 @@ $("input[name=questao1]").on("click", function () {
         "<b>INCORRETO</b>. Autonomia da adolescente deve sempre ser estimulada e respeitada, compreendendo-se a essência deste princípio bioético enquanto passível de exercício a partir da oferta adequada de informações cientificamente embasadas e com fundamentação técnica pelos organismos de saúde, com vistas à promoção do autocuidado. O uso de anticoncepcional por menina &lt; 16 anos não precisa ser autorizado pelos pais.";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETO</b>. A contracepção de emergência deve ser administrada em até 120 horas (5 dias) após a relação sexual desprotegida ou a violência sexual, sendo ideal que ocorra no menor intervalo possível para aumentar a eficácia";
+        "<b>INCORRETO</b>. A contracepção de emergência deve ser administrada em até 120 horas (5 dias) após a relação sexual desprotegida ou a violência sexual, sendo ideal que ocorra no menor intervalo possível para aumentar a eficácia.";
     }
 
     $("#mensagem1").html(mensagem);

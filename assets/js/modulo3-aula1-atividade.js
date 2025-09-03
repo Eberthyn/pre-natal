@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETO</b>. Bacteriúria assintomática (BA) é um diagnóstico baseado em cultura da urina. Essa é uma definição de grande importância prática. Significa que não é possível fazer o diagnóstico com outros tipos de exame como EAS (Urina tipo 1), ou Gram de gota. Infelizmente, em muitos locais do Brasil, a cultura de urina não está disponível. Nestes locais, o uso de EAS ou Gram de gota para diagnosticar BA leva ao que se chama “superdiagnóstico”, que é o diagnóstico em excesso, ou diagnóstico de uma condição que na verdade não existe, levando ao uso desnecessário de antibióticos.";
+        "<b>CORRETO</b>. Preeclampsia em gravidez anterior, principalmente quando de início precoce (antes de 30 semanas) ou com desfecho adverso, aumenta o risco de preeclampsia na gravidez atual em até 8 vezes. É o principal fator de risco para recorrências. Outros fatores de risco são: HAC, doença renal crônica, obesidade (IMC &gt; 30), diabetes prévia, doenças auto-imunes, fertilização in vitro, gestação múltipla.";
     } else if (value == "A1") {
       mensagem =
-        "<b>INCORRETO</b>. A bacteriúria assintomática foi associada a aumento no risco de prematuridade, baixo peso, sepse neonatal, admissão em UTI neonatal e óbito fetal/neonatal, além de pielonefrite e óbito materno. Por isso o rastreio está indicado.";
+        "<b>INCORRETO</b>. Hipertensão é definida como uma PAS ≥ 140 OU PAD ≥ 90 mmHg, confirmada por pelo menos duas medidas, com um intervalo de 4 horas. Medidas ≥ 160/110 mmHg indicam hipertensão grave, com indicação de tratamento imediato. Nestes casos, não é necessário aguardar 4 horas para tomar uma segunda medida. É importante que a técnica da medida seja correta e o equipamento esteja calibrado.";
     } else if (value == "C1") {
       mensagem =
-        "<b>INCORRETO</b>. Esses sinais e sintomas são típicos de pielonefrite, que é a infecção renal. Na bacteriúria assintomática, como o nome diz, não existem sintomas.";
+        "<b>INCORRETO</b>. Hipertensão pode se apresentar de forma assintomática, principalmente em casos leves.";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETO</b>. Bacteriúria assintomática (BA) é um diagnóstico baseado em cultura da urina. Essa é uma definição de grande importância prática. Significa que não é possível fazer o diagnóstico com outros tipos de exame como EAS (Urina tipo 1), ou Gram de gota. Infelizmente, em muitos locais do Brasil, a cultura de urina não está disponível. Nestes locais, o uso de EAS ou Gram de gota para diagnosticar BA leva ao que se chama “superdiagnóstico”, que é o diagnóstico em excesso, ou diagnóstico de uma condição que na verdade não existe, levando ao uso desnecessário de antibióticos.";
+        "<b>INCORRETO</b>. Carbonato de cálcio, na dose de 1.000 mg/dia (cálcio elemento) é indicado para prevenção da preeclampsia em mulheres de alto risco, ou baixa ingesta de cálcio. No Brasil, a maioria das mulheres apresentam baixa ingesta de cálcio. Por isso, o Ministério da Saúde passou a recomendar a suplementação universal de cálcio. Não é um medicamento para tratamento da hipertensão.";
     }
 
     $("#mensagem1").html(mensagem);

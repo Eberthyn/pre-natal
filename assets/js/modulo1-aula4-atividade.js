@@ -48,16 +48,16 @@ $("input[name=questao1]").on("click", function () {
 
     if (resposta == value) {
       mensagem =
-        "<b>CORRETA</b>. A atividade física regular (150 minutos de atividade física por semana) tem múltiplos benefícios, inclusive prevenção de dor lombar.";
+        "<b>CORRETO</b>. A atividade física regular (150 minutos de atividade física por semana) tem múltiplos benefícios, inclusive prevenção de dor lombar.";
     } else if (value == "B1") {
       mensagem =
-        "<b>INCORRETA</b>. Se a mulher apresentar sangramento no primeiro trimestre (ameaça de aborto), deve ser orientada a evitar atividade física. Mas para mulheres assintomáticas, não existem evidências de que atividade física aumente o risco de aborto.";
+        "<b>INCORRETO</b>. Se a mulher apresentar sangramento no primeiro trimestre (ameaça de aborto), deve ser orientada a evitar atividade física. Mas para mulheres assintomáticas, não existem evidências de que atividade física aumente o risco de aborto.";
     } else if (value == "C1") {
       mensagem =
-        "<b>INCORRETA</b>. Todo medicamento deve ser utilizado de forma racional durante a gravidez, inclusive analgésicos comuns. Não existem evidências de que dipirona ou paracetamol aumentem o risco de malformações fetais. Por isso, podem ser utilizados com segurança, quando indicados.";
+        "<b>INCORRETO</b>. Todo medicamento deve ser utilizado de forma racional durante a gravidez, inclusive analgésicos comuns. Não existem evidências de que dipirona ou paracetamol aumentem o risco de malformações fetais. Por isso, podem ser utilizados com segurança, quando indicados.";
     } else if (value == "D1") {
       mensagem =
-        "<b>INCORRETA</b>. É importante que a gestante passe pelo dentista, durante a gestação, como rotina. A consulta com o dentista é um indicador de qualidade da atenção básica. Não existem contraindicações para tratamento odontológico durante a gestação, incluindo tratamento de cáries dentárias, aplicação de anestesia e realização de raio X.";
+        "<b>INCORRETO</b>. É importante que a gestante passe pelo dentista, durante a gestação, como rotina. A consulta com o dentista é um indicador de qualidade da atenção básica. Não existem contraindicações para tratamento odontológico durante a gestação, incluindo tratamento de cáries dentárias, aplicação de anestesia e realização de raio X.";
     }
 
     $("#mensagem1").html(mensagem);
